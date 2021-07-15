@@ -13,12 +13,14 @@ func _() {
 	_ = x[Rinkeby-4]
 	_ = x[Goerli-5]
 	_ = x[Kovan-42]
+	_ = x[Bsc-56]
 }
 
 const (
 	_ChainID_name_0 = "Mainnet"
 	_ChainID_name_1 = "RopstenRinkebyGoerli"
 	_ChainID_name_2 = "Kovan"
+	_ChainID_name_3 = "Bsc"
 )
 
 var (
@@ -34,6 +36,8 @@ func (i ChainID) String() string {
 		return _ChainID_name_1[_ChainID_index_1[i]:_ChainID_index_1[i+1]]
 	case i == 42:
 		return _ChainID_name_2
+	case i == 56:
+		return _ChainID_name_3	
 	default:
 		return "ChainID(" + strconv.FormatInt(int64(i), 10) + ")"
 	}
