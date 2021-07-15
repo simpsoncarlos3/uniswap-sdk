@@ -10,4 +10,5 @@ const (
 	Rinkeby ChainID = 4
 	Goerli  ChainID = 5
 	Kovan   ChainID = 42
+	Bsc	ChainID	= 56
 )
