@@ -1,4 +1,4 @@
-module github.com/simpsoncarlos3/uniswap-sdk-go
+module github.com/simpsoncarlos3/uniswap-sdk
 
 go 1.15
 
